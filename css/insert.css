@@ -1,0 +1,51 @@
+.cen {
+    width: 60%;
+    min-height: 400px;
+    margin: auto;
+    padding: 5% 0%;
+    background-color: white;
+}
+
+.form {
+    padding: 0% 10%;
+    margin-bottom: 8%;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid rgb(144, 139, 139);
+    border-radius: 0px;
+}
+
+.allCart {
+    max-width: 1140px;
+    max-height: 765px;
+    margin: auto;
+    font-size: 110%;
+    overflow: hidden;
+    border: 0px;
+}
+
+.H2 {
+    margin-bottom: 9%;
+    text-align: center;
+}
+
+.cartP {
+    position: absolute;
+    bottom: 3px;
+    right: 1%;
+    width: 49%;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.buttoncontact {
+    background-color: rgb(49, 66, 97);
+    width: 700px;
+    margin: 5% auto;
+    transition: .5s;
+}
+
+.buttoncontact:hover {
+    background-color: rgb(81, 7, 95);
+}

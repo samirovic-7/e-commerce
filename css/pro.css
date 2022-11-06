@@ -1,0 +1,91 @@
+.cent {
+    min-height: 500px;
+    /* background-color: rgba(93, 61, 61, 0.1); */
+    padding: 1% 1%;
+}
+
+.allcat {
+    height: 90px;
+    margin: 1% auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.CatImg {
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+.CatTextHeder {
+    font-size: 90%;
+    margin: auto 0%;
+    font-family: cursive;
+    font-weight: 800;
+}
+
+.CatText {
+    text-align: center;
+    font-size: 100%;
+    border-bottom: 2px solid;
+    height: 30%;
+    margin: auto 0%;
+    text-shadow: 0px 0px 1px black;
+}
+
+.Catbutt_delete {
+    font-size: 130%;
+    height: 35%;
+    margin: auto 0%;
+    background-color: rgba(144, 27, 27, 0.9);
+    color: white;
+    border-radius: 3px;
+}
+
+.Catbutt_delete:hover {
+    transition: 1s;
+    background-color: rgba(5, 25, 62, .2);
+    color: black;
+}
+
+.butt {
+    box-shadow: 0px 0px 7px 0px;
+    border: none;
+    background-color: rgba(49, 66, 97, .9);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 130%;
+    margin: auto 0%;
+    text-decoration: none;
+}
+
+.butt:hover {
+    transition: 1s;
+    background-color: rgba(5, 25, 62, .2);
+    color: black;
+}
+
+.Button {
+    position: relative;
+    left: 80%;
+    margin: 4% 0%;
+    text-align: center;
+    font-size: 130%;
+    width: 90px;
+}
+
+.ButtonAll {
+    width: 100%;
+    box-shadow: 0px 0px 7px 0px;
+    border: none;
+    background-color: rgba(144, 27, 27, 0.9);
+    color: white;
+    border-radius: 3px;
+    font-weight: 600;
+}

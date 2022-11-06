@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    position: relative;
+}
+
+.Slide {
+    height: 520px;
+    position: relative;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(.2);
+}
+
+.cen {
+    min-height: 650px;
+    padding-top: 1%;
+    background-color: rgb(201, 201, 201);
+    overflow: hidden;
+}
+
+.twoTaps {
+    width: 100%;
+    height: 410px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.cardio {
+    width: 48%;
+    height: 100%;
+}
+
+.imgoverlay {
+    width: 37%;
+    height: 100%;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.but {
+    position: relative;
+    padding: 2% 6%;
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: bold;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.pro {
+    width: 100%;
+    height: 200px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.prod {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 9px 0px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.prodleft {
+    height: 100%;
+    width: 40%;
+    margin: auto 0%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.prodleft img {
+    height: 100%;
+    width: 100%;
+    margin: auto 0%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.prodright {
+    height: 100%;
+    width: 55%;
+    margin: 13% 0%;
+    padding: 1% 2%;
+    font-size: 165%;
+}
+
+.cartall {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    padding-top: 1%;
+    box-shadow: 0px 0px 9px 0px;
+    margin-bottom: 3%;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+}
+
+.card-groupe {
+    border-radius: 30px;
+}
+
+.button {
+    margin: 5% auto;
+    width: 70%;
+    background-color: rgb(49, 66, 97);
+}
+
+.button:hover {
+    transition: 1s;
+    background-color: rgba(49, 66, 97, .8);
+}
+
+.cartallShop {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    padding: 3%;
+    box-shadow: 0px 0px 9px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.shopcat {
+    width: 23%;
+    height: 45%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    box-shadow: 0px 0px 15px 0px gray;
+}
+
+.shopcat h4 {
+    text-align: center;
+    margin: 5% 13% 2% 10%;
+    font-size: 180%;
+    color: rgb(60, 38, 83);
+    text-shadow: 0px 0px 19px rgb(14, 14, 14);
+}
+
+.h1 {
+    width: 100%;
+    margin: 4%;
+}
+
+.save {
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    height: 500px;
+    box-shadow: 0px 0px 9px 0px;
+    display: flex;
+    /* justify-content: space-around;
+    align-content: space-around; */
+    flex-wrap: wrap;
+    margin: 2% auto;
+    overflow: hidden;
+}
+
+.part1 {
+    width: 60%;
+    height: 100%;
+    transform: skew(15deg);
+    position: relative;
+    left: -6.2%;
+    box-shadow: -5px 64px 10px 3px black;
+    border: 0px solid black;
+}
+
+.partimg {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0px solid black;
+}
+
+.part2 {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    left: -1%;
+}
+
+.part11 {
+    width: 60%;
+    height: 100%;
+    transform: skew(-15deg);
+    position: relative;
+    left: 6%;
+    box-shadow: 5px 64px 10px 5px black;
+    border: 0px solid black;
+    -webkit-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+}
+
+.part21 {
+    width: 40%;
+    height: 100%;
+}
+
+.form {
+    padding: 0% 10%;
+    margin: 3% 0% 2% 0%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.H3 {
+    color: rgb(81, 7, 95);
+    font-size: 240%;
+    margin-bottom: 4%;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.inplab {
+    margin: 2% auto;
+}
+
+.buttoncontact {
+    background-color: rgb(49, 66, 97);
+    width: 440px;
+    transition: .5s;
+}
+
+.buttoncontact:hover {
+    background-color: rgb(81, 7, 95);
+}
+
+.heart .bi-heart-fill {
+    cursor: pointer;
+    color: red;
+}

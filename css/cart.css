@@ -1,0 +1,83 @@
+.Card_body {
+    width: 70%;
+    min-height: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card_left {
+    height: 620px;
+    background-image: url(../img/cart3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.card_right {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.card_right_top {
+    height: 150px;
+    margin-bottom: 5%;
+}
+
+.card_right_bottom {
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.button_add {
+    width: 35%;
+    position: relative;
+    background-color: rgb(49, 66, 97);
+    top: 60px;
+    color: black;
+    margin-bottom: -10%;
+}
+
+.button_add a {
+    color: white;
+    text-decoration: none;
+}
+
+.button_add:hover {
+    transition: 1s;
+    background-color: rgba(49, 66, 97, .8);
+}
+
+.button_buy {
+    width: 45%;
+    position: relative;
+    background-color: rgb(49, 66, 97);
+    padding: 2% 10%;
+    top: 60px;
+    color: black;
+    display: block;
+}
+
+.button_buy a {
+    color: white;
+    text-decoration: none;
+    padding: 0% 3%;
+}
+
+.button_buy:hover {
+    transition: 1s;
+    background-color: rgba(49, 66, 97, .8);
+}
+
+.heart_fav {
+    position: relative;
+    top: 37%;
+    left: 37.5%;
+    font-size: 160%;
+}
